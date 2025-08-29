@@ -1,19 +1,3 @@
-// let target = "Pune"
-
-// const fetchResults = async () => {
-//     let url = "http://api.weatherapi.com/v1/current.json?key=4a7376fa9a49426e952221029252808&q=Pune&aqi=no";
-
-//     const res = await fetch(url);
-
-//     const data = await res.json();
-
-//     console.log(data);
-// };
-
-// fetchResults(target);
-
-
-
 let target = "Pune"; // default city
 
 // Function to fetch weather data
