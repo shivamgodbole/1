@@ -37,12 +37,14 @@ h1 {
 
 .condition {
     text-align: center;
+    font-size: 40px;
+    color: aquamarine;
 }
 
 .condition img {
     width: 64px;
     height: 64px;
-    display: block;
+    display: none; /* hide until JS loads icon */
     margin: 0 auto;
 }
 
@@ -50,14 +52,13 @@ h1 {
     padding: 1rem;
     outline: none;
     border: none;
-    color: black;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-size: 1.1rem;
     text-align: center;
 }
 
 .search_area::placeholder {
-    color: gray;
+    color: rgb(255, 0, 0);
     opacity: 0.8;
 }
 
@@ -82,5 +83,6 @@ nav form button {
 
 p {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
 }
+
